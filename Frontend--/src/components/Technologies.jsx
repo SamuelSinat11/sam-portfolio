@@ -1,32 +1,20 @@
 import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { motion } from "motion/react"
+import { motion } from "motion/react"; 
+import { SiJavascript } from 'react-icons/si';
+
 
 const technologies = [
   { icon: <RiReactjsLine className="text-7xl text-cyan-400" />, name: "React.js" },
-  { icon: <TbBrandNextjs className="text-7xl text-cyan-400" />, name: "Next.js" },
   { icon: <SiMongodb className="text-7xl text-cyan-400" />, name: "MongoDB" },
-  { icon: <DiRedis className="text-7xl text-cyan-400" />, name: "Redis" },
   { icon: <FaNodeJs className="text-7xl text-cyan-400" />, name: "Node.js" },
   { icon: <BiLogoPostgresql className="text-7xl text-cyan-400" />, name: "PostgreSQL" },
+  { icon: <SiJavascript className="text-7xl text-cyan-400" />, name: "JavaScript" },
+  
 ];
-
-const iconVariants = (duration) => ({
-    initial: { y: -10}, 
-    animate: { 
-        y: [10, -10], 
-            duration: duration,
-            ease: "linear", 
-            repeat: "Infinity", 
-            repeatType: "reverse", 
-    }
-})
-
 
 const Technologies = () => {
   return (
