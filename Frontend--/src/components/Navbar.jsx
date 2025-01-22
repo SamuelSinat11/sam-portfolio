@@ -1,5 +1,5 @@
 import Logo2 from "../assets/Logo2.png";
-import { FaLinkedin, FaGithub, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebook , FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -9,10 +9,10 @@ const Navbar = () => {
             </div>
 
             <div className=" text-white m-8 flex items-center justify-center gap-4 text-2xl">
-                <FaLinkedin />
-                <FaGithub />
-                <FaTwitterSquare />
-                <FaInstagram />
+                <a href="https://www.linkedin.com/in/samuel-sinat-18a640204/"><FaLinkedin /> </a> 
+                <a href="https://github.com/SamuelSinat11"><FaGithub /> </a>
+                <a href="https://www.facebook.com/share/17SDzDr4EA/?mibextid=wwXIfr"> <FaFacebook  /> </a>
+                <a href="https://www.instagram.com/ed_samuel10/"> <FaInstagram /> </a>
             </div>
         </nav>
     );

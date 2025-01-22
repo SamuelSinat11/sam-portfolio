@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{ 
+  font-family: battambang;
+  src: url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+}
+
+@font-face{ 
+  font-family: bayon;
+  src: url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+}
+
+.battambang{
+  font-family: battambang;
+}
+
+.bayon{ 
+  font-family: bayon;
+}
 
 
 :root { 
